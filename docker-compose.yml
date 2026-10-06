@@ -1,0 +1,14 @@
+services:
+  countdown-bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: discord-countdown-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      NODE_ENV: production
+      DATA_DIR: /app/data
+    volumes:
+      - ./data:/app/data

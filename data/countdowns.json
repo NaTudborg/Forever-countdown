@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "countdowns": [
+    {
+      "guildId": "1552777844713594971",
+      "channelId": "1552777846378991688",
+      "targetAtUtc": "2026-11-04T23:00:00.000Z",
+      "timezone": "Europe/Copenhagen",
+      "title": "Countdown",
+      "imagePath": "data/images/27793dec-683c-46ce-a549-e2110dbac7d5.png",
+      "messageId": "1552990641489842236",
+      "messageFormat": 4,
+      "state": "active",
+      "createdBy": "1449721512662798336",
+      "createdAt": "2026-09-25T10:30:20.873Z",
+      "updatedAt": "2026-09-25T10:30:22.544Z"
+    }
+  ]
+}
